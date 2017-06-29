@@ -1,0 +1,58 @@
+h1 {
+  color: blue;
+}
+
+body {
+  background: #999000;
+  font-size: 30px;
+}
+
+.container {
+  margin: 20px;
+  padding: 20px;
+}
+
+.small-container {
+  min-height: 50vh;
+  padding-top: 30vh;
+  text-align: center;
+  list-style-position: inside;
+  color: #008000;
+  font-family: Lucida Handwriting;
+  font-size: 20px;
+  background: cyan;
+}
+
+#navbar {
+  position: fixed;
+  width: 90vw;
+}
+
+#navbar .nav-links {
+  text-align: right;
+}
+
+#navbar .nav-buttons {
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
+
+#navbar .nav-buttons:hover {
+  color: white;
+}
+
+#contact input, textarea {
+  padding: 20px;
+  margin: 15px auto;
+  font-size: 18px;
+  border: none;
+}
+
+#contact .same-row {
+  display: block;
+}
+
+#contact input[type="submit"] {
+  background-color: #FFC169;
+}
